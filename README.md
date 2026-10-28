@@ -3,6 +3,22 @@
 90 study days (Monday–Saturday, Sundays off) from beginner Python to Generative & Agentic AI Engineer.
 Progress, reviews and help: [tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB).
 
+## Progress
+
+**0 / 90 days complete.** Started: _not yet_ · Last day finished: _none_
+
+Tick a day when all three of its tasks are done. Update the `Done` column in [Weeks](#weeks) as you go.
+
+### Week 1 · Python basics · How AI & LLMs work
+- [ ] [Day 01](day01/) · Setup · The AI map
+- [ ] [Day 02](day02/) · Variables · Tokens & next-word prediction
+- [ ] [Day 03](day03/) · Data structures · Context windows
+- [ ] [Day 04](day04/) · Control flow · Prompting in a chat UI
+- [ ] [Day 05](day05/) · Functions · LLM limits
+- [ ] [Day 06](day06/) · Build day: expense tracker v1
+
+Weeks 2–15: tick days in the [Weeks](#weeks) table below, or expand this list as you reach them.
+
 ## How the course works
 Every study day has **three parallel tracks** (~2–3 hours in total):
 
@@ -37,20 +53,20 @@ cp .env.example .env
 ```
 
 ## Weeks
-| Week | Engineering · AI & ML | Days |
-|------|-----------------------|------|
-| 1 | Python basics · How AI & LLMs work | [01](day01/), [02](day02/), [03](day03/), [04](day04/), [05](day05/), [06](day06/) |
-| 2 | Files, OOP & typing · Vectors, stats & data | [07](day07/), [08](day08/), [09](day09/), [10](day10/), [11](day11/), [12](day12/) |
-| 3 | Testing & APIs · Your first LLM apps | [13](day13/), [14](day14/), [15](day15/), [16](day16/), [17](day17/), [18](day18/) |
-| 4 | Data & SQL · Machine learning fundamentals | [19](day19/), [20](day20/), [21](day21/), [22](day22/), [23](day23/), [24](day24/) |
-| 5 | APIs with FastAPI · Structured outputs & tools | [25](day25/), [26](day26/), [27](day27/), [28](day28/), [29](day29/), [30](day30/) |
-| 6 | Docker · Classic ML algorithms | [31](day31/), [32](day32/), [33](day33/), [34](day34/), [35](day35/), [36](day36/) |
-| 7 | Text processing · Embeddings & basic RAG | [37](day37/), [38](day38/), [39](day39/), [40](day40/), [41](day41/), [42](day42/) |
-| 8 | UIs & vector stores · Advanced RAG | [43](day43/), [44](day44/), [45](day45/), [46](day46/), [47](day47/), [48](day48/) |
-| 9 | CI & testing LLM apps · Deep learning & vision | [49](day49/), [50](day50/), [51](day51/), [52](day52/), [53](day53/), [54](day54/) |
-| 10 | Reliable Python · Agent design patterns | [55](day55/), [56](day56/), [57](day57/), [58](day58/), [59](day59/), [60](day60/) |
-| 11 | LangGraph · Memory & human-in-the-loop | [61](day61/), [62](day62/), [63](day63/), [64](day64/), [65](day65/), [66](day66/) |
-| 12 | Agent tooling · Multi-agent & self-healing | [67](day67/), [68](day68/), [69](day69/), [70](day70/), [71](day71/), [72](day72/) |
-| 13 | Production & security · Cloud & Kubernetes | [73](day73/), [74](day74/), [75](day75/), [76](day76/), [77](day77/), [78](day78/) |
-| 14 | Capstone project | [79](day79/), [80](day80/), [81](day81/), [82](day82/), [83](day83/), [84](day84/) |
-| 15 | Interview prep & applications | [85](day85/), [86](day86/), [87](day87/), [88](day88/), [89](day89/), [90](day90/) |
+| Week | Engineering · AI & ML | Days | Done |
+|------|-----------------------|------|------|
+| 1 | Python basics · How AI & LLMs work | [01](day01/), [02](day02/), [03](day03/), [04](day04/), [05](day05/), [06](day06/) | 0/6 |
+| 2 | Files, OOP & typing · Vectors, stats & data | [07](day07/), [08](day08/), [09](day09/), [10](day10/), [11](day11/), [12](day12/) | 0/6 |
+| 3 | Testing & APIs · Your first LLM apps | [13](day13/), [14](day14/), [15](day15/), [16](day16/), [17](day17/), [18](day18/) | 0/6 |
+| 4 | Data & SQL · Machine learning fundamentals | [19](day19/), [20](day20/), [21](day21/), [22](day22/), [23](day23/), [24](day24/) | 0/6 |
+| 5 | APIs with FastAPI · Structured outputs & tools | [25](day25/), [26](day26/), [27](day27/), [28](day28/), [29](day29/), [30](day30/) | 0/6 |
+| 6 | Docker · Classic ML algorithms | [31](day31/), [32](day32/), [33](day33/), [34](day34/), [35](day35/), [36](day36/) | 0/6 |
+| 7 | Text processing · Embeddings & basic RAG | [37](day37/), [38](day38/), [39](day39/), [40](day40/), [41](day41/), [42](day42/) | 0/6 |
+| 8 | UIs & vector stores · Advanced RAG | [43](day43/), [44](day44/), [45](day45/), [46](day46/), [47](day47/), [48](day48/) | 0/6 |
+| 9 | CI & testing LLM apps · Deep learning & vision | [49](day49/), [50](day50/), [51](day51/), [52](day52/), [53](day53/), [54](day54/) | 0/6 |
+| 10 | Reliable Python · Agent design patterns | [55](day55/), [56](day56/), [57](day57/), [58](day58/), [59](day59/), [60](day60/) | 0/6 |
+| 11 | LangGraph · Memory & human-in-the-loop | [61](day61/), [62](day62/), [63](day63/), [64](day64/), [65](day65/), [66](day66/) | 0/6 |
+| 12 | Agent tooling · Multi-agent & self-healing | [67](day67/), [68](day68/), [69](day69/), [70](day70/), [71](day71/), [72](day72/) | 0/6 |
+| 13 | Production & security · Cloud & Kubernetes | [73](day73/), [74](day74/), [75](day75/), [76](day76/), [77](day77/), [78](day78/) | 0/6 |
+| 14 | Capstone project | [79](day79/), [80](day80/), [81](day81/), [82](day82/), [83](day83/), [84](day84/) | 0/6 |
+| 15 | Interview prep & applications | [85](day85/), [86](day86/), [87](day87/), [88](day88/), [89](day89/), [90](day90/) | 0/6 |
