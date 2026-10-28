@@ -1,0 +1,19 @@
+# Month 1
+requests
+python-dotenv
+pydantic
+pytest
+pytest-cov
+httpx
+ruff
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+notebook
+# Install later when you reach them (heavier):
+# xgboost mlxtend torch torchvision
+# openai tiktoken fastapi uvicorn sentence-transformers chromadb faiss-cpu pypdf python-docx
+# langchain langchain-openai langgraph llama-index rank_bm25 ragas streamlit
+# openai-agents "mcp[cli]" mlflow
