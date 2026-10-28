@@ -1,31 +1,33 @@
-# Day 52: Planning pattern
+# Day 52: LLM-as-judge · Vision models
 
-**Week 8 · Agent patterns & LangGraph basics**
+**Week 9 · CI & testing LLM apps · Deep learning & vision**
 
-Planning is named in the job: break goals into steps.
+Grade open-ended answers automatically; send images to models.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Plan](task1_plan.py) | `py` |
-| 2 | [Execute](task2_execute.py) | `py` |
-| 3 | [Replan](task3_replan.py) | `py` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [LLM-as-judge](task1_eng_llm_as_judge.py) |
+| 2 | AI & ML | [Vision models: image input](task2_ai_vision_models_image_input.py) |
+| 3 | Practice | [Problems: Rate Limiter & Flatten JSON](task3_prac_problems_rate_limiter_flatten_json.py) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-Plan-and-execute agent
+## Today's goal
+A judge function, an image description and two problems
 
 ## If you get stuck
-- [LangGraph docs](https://langchain-ai.github.io/langgraph/)
-- [Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)
-- Open [day 52 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-52) and ask Claude in the chat.
+- [DeepEval](https://deepeval.com/)
+- [promptfoo](https://www.promptfoo.dev/docs/intro/)
+- [Claude vision](https://docs.claude.com/en/docs/build-with-claude/vision)
+- [OpenAI vision](https://platform.openai.com/docs/guides/images-vision)
+- Open [day 52 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-52) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-52
 git add day52
-git commit -m "Day 52: Planning pattern"
+git commit -m "Day 52: LLM-as-judge · Vision models"
 git push -u origin day-52
 ```
-Then press **Review my GitHub code** on day 52 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 52 in the tracker.

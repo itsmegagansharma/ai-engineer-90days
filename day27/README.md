@@ -1,31 +1,31 @@
-# Day 27: Neural networks
+# Day 27: Persistence · Defining tools
 
-**Week 4 · ML algorithms from the job description**
+**Week 5 · APIs with FastAPI · Structured outputs & tools**
 
-LLMs are neural networks. Knowing the basics makes everything else make sense.
+Apps need storage; tools let LLMs act.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Concepts](task1_concepts.md) | `md` |
-| 2 | [PyTorch tensors](task2_pytorch_tensors.py) | `py` |
-| 3 | [Train an MLP](task3_train_an_mlp.py) | `py` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [Store data with SQLite in FastAPI](task1_eng_store_data_with_sqlite_in_fastapi.py) |
+| 2 | AI & ML | [Define tools for an LLM](task2_ai_define_tools_for_an_llm.py) |
+| 3 | Practice | [Problems: 3Sum & Merge Intervals](task3_prac_problems_3sum_merge_intervals.py) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-MNIST classifier in PyTorch
+## Today's goal
+Notes API with SQLite, tool definitions and two problems
 
 ## If you get stuck
-- [3Blue1Brown: neural networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
-- [PyTorch basics tutorial](https://pytorch.org/tutorials/beginner/basics/intro.html)
-- Open [day 27 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-27) and ask Claude in the chat.
+- [Claude tool use](https://docs.claude.com/en/docs/agents-and-tools/tool-use/overview)
+- [OpenAI function calling](https://platform.openai.com/docs/guides/function-calling)
+- Open [day 27 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-27) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-27
 git add day27
-git commit -m "Day 27: Neural networks"
+git commit -m "Day 27: Persistence · Defining tools"
 git push -u origin day-27
 ```
-Then press **Review my GitHub code** on day 27 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 27 in the tracker.

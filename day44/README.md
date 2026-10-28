@@ -1,30 +1,32 @@
-# Day 44: Reranking & query rewriting
+# Day 44: Connect UI to API · Reranking
 
-**Week 7 · Advanced RAG & vision models**
+**Week 8 · UIs & vector stores · Advanced RAG**
 
-Advanced RAG is required. Rerankers are the biggest quick win.
+Separate UI and backend; rerankers are the biggest quick win in RAG.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Cross-encoder reranker](task1_cross_encoder_reranker.py) | `py` |
-| 2 | [Multi-query](task2_multi_query.py) | `py` |
-| 3 | [HyDE](task3_hyde.py) | `py` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [Connect Streamlit to FastAPI](task1_eng_connect_streamlit_to_fastapi.py) |
+| 2 | AI & ML | [Cross-encoder reranking](task2_ai_cross_encoder_reranking.py) |
+| 3 | Practice | [Interview: RAG](task3_prac_interview_rag.md) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-Reranking step with before/after results
+## Today's goal
+UI ↔ API working, a reranker with before/after and RAG interview answers
 
 ## If you get stuck
+- [Streamlit get started](https://docs.streamlit.io/get-started)
+- [FastAPI tutorial](https://fastapi.tiangolo.com/tutorial/)
 - [sentence-transformers](https://sbert.net/)
-- Open [day 44 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-44) and ask Claude in the chat.
+- Open [day 44 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-44) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-44
 git add day44
-git commit -m "Day 44: Reranking & query rewriting"
+git commit -m "Day 44: Connect UI to API · Reranking"
 git push -u origin day-44
 ```
-Then press **Review my GitHub code** on day 44 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 44 in the tracker.

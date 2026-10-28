@@ -1,32 +1,34 @@
-# Day 16: Pandas
+# Day 16: Async · Chat with history
 
-**Week 3 · Data, SQL & first ML models**
+**Week 3 · Testing & APIs · Your first LLM apps**
 
-Enterprise data usually arrives as tables. Pandas is how you clean it.
+Async runs many calls at once; history makes a chatbot remember.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Load and inspect](task1_load_and_inspect.py) | `py` |
-| 2 | [Filter, sort, groupby](task2_filter_sort_groupby.py) | `py` |
-| 3 | [Clean](task3_clean.py) | `py` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [Async Python & httpx](task1_eng_async_python_httpx.py) |
+| 2 | AI & ML | [Chatbot with history & cost tracking](task2_ai_chatbot_with_history_cost_tracking.py) |
+| 3 | Practice | [Use the VS Code debugger](task3_prac_use_the_vs_code_debugger.md) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-Cleaned and summarized Kaggle CSV in a notebook
+## Today's goal
+Async timing, a terminal chatbot that tracks cost, and debugger notes
 
 ## If you get stuck
-- [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html)
-- [Kaggle Learn: Pandas](https://www.kaggle.com/learn/pandas)
-- [Kaggle datasets](https://www.kaggle.com/datasets)
-- Open [day 16 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-16) and ask Claude in the chat.
+- [Real Python: async IO](https://realpython.com/async-io-python/)
+- [HTTPX async client](https://www.python-httpx.org/async/)
+- [asyncio docs](https://docs.python.org/3/library/asyncio.html)
+- [Gemini API quickstart (free tier)](https://ai.google.dev/gemini-api/docs/quickstart)
+- [OpenAI API quickstart](https://platform.openai.com/docs/quickstart)
+- Open [day 16 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-16) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-16
 git add day16
-git commit -m "Day 16: Pandas"
+git commit -m "Day 16: Async · Chat with history"
 git push -u origin day-16
 ```
-Then press **Review my GitHub code** on day 16 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 16 in the tracker.

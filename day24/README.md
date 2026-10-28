@@ -1,32 +1,30 @@
-# Day 24: Anomaly detection & pattern discovery
+# Day 24: Build day: Titanic end to end
 
-**Week 4 · ML algorithms from the job description**
+**Week 4 · Data & SQL · Machine learning fundamentals** · Build day
 
-Both are named in the job: fraud, outliers, frequent patterns.
+One notebook from raw data to a tuned model with a write-up.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Isolation Forest](task1_isolation_forest.py) | `py` |
-| 2 | [Statistical methods](task2_statistical_methods.py) | `py` |
-| 3 | [Association rules](task3_association_rules.py) | `py` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Build | [Build: Titanic notebook end to end](task1_build_titanic_notebook_end_to_end.md) |
+| 2 | Review | [Week 4 recap quiz](task2_review_week_4_recap_quiz.md) |
+| 3 | Review | [Week 4 reflection & plan](task3_review_week_4_reflection_plan.md) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-Anomaly detector + association rules notebook
+## Today's goal
+Titanic notebook + write-up on GitHub
 
 ## If you get stuck
-- [scikit-learn: outlier detection](https://scikit-learn.org/stable/modules/outlier_detection.html)
-- [mlxtend apriori guide](https://rasbt.github.io/mlxtend/user_guide/frequent_patterns/apriori/)
-- [Kaggle datasets](https://www.kaggle.com/datasets)
-- Open [day 24 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-24) and ask Claude in the chat.
+- [Kaggle Learn: Intermediate ML](https://www.kaggle.com/learn/intermediate-machine-learning)
+- Open [day 24 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-24) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-24
 git add day24
-git commit -m "Day 24: Anomaly detection & pattern discovery"
+git commit -m "Day 24: Build day: Titanic end to end"
 git push -u origin day-24
 ```
-Then press **Review my GitHub code** on day 24 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 24 in the tracker.

@@ -1,30 +1,32 @@
-# Day 12: HTTP & REST APIs
+# Day 12: Build day: expense tracker v2 + data notebook
 
-**Week 2 · Intermediate Python, testing & APIs**
+**Week 2 · Files, OOP & typing · Vectors, stats & data** · Build day
 
-LLMs, vector DBs and enterprise systems are all reached through HTTP APIs.
+Upgrade the tracker with OOP and validation, and clean a real dataset.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [HTTP basics](task1_http_basics.md) | `md` |
-| 2 | [requests library](task2_requests_library.py) | `py` |
-| 3 | [Secrets in .env](task3_secrets_in_env.py) | `py` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Build | [Build: expense tracker v2 (OOP + Pydantic)](task1_build_expense_tracker_v2_oop_pydantic.py) |
+| 2 | Review | [Week 2 recap quiz](task2_review_week_2_recap_quiz.md) |
+| 3 | Review | [Clean & summarise a dataset](task3_review_clean_summarise_a_dataset.py) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-weather.py that prints a 3-day forecast for Nashik
+## Today's goal
+Expense tracker v2 and a cleaned dataset, pushed
 
 ## If you get stuck
-- [Real Python: requests library](https://realpython.com/python-requests/)
-- Open [day 12 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-12) and ask Claude in the chat.
+- [10 minutes to pandas](https://pandas.pydata.org/docs/user_guide/10min.html)
+- [Kaggle Learn: Pandas](https://www.kaggle.com/learn/pandas)
+- [Kaggle datasets](https://www.kaggle.com/datasets)
+- Open [day 12 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-12) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-12
 git add day12
-git commit -m "Day 12: HTTP & REST APIs"
+git commit -m "Day 12: Build day: expense tracker v2 + data notebook"
 git push -u origin day-12
 ```
-Then press **Review my GitHub code** on day 12 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 12 in the tracker.

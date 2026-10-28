@@ -1,31 +1,32 @@
-# Day 53: Multi-agent collaboration
+# Day 53: CI images & secrets · Document parsing
 
-**Week 8 · Agent patterns & LangGraph basics**
+**Week 9 · CI & testing LLM apps · Deep learning & vision**
 
-Multi-agent collaboration is the fourth named pattern.
+Build images in CI safely; extract structured data from scans.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Patterns](task1_patterns.md) | `md` |
-| 2 | [Trade-offs](task2_trade_offs.md) | `md` |
-| 3 | [Design](task3_design.md) | `md` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [Build images in CI & use secrets](task1_eng_build_images_in_ci_use_secrets.md) |
+| 2 | AI & ML | [Parse receipts with a vision model](task2_ai_parse_receipts_with_a_vision_model.py) |
+| 3 | Practice | [Interview: evaluation & metrics](task3_prac_interview_evaluation_metrics.md) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-Design doc with a diagram
+## Today's goal
+CI building your image, a receipt parser and eval interview answers
 
 ## If you get stuck
-- [Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)
-- [LangGraph docs](https://langchain-ai.github.io/langgraph/)
-- Open [day 53 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-53) and ask Claude in the chat.
+- [GitHub Actions docs](https://docs.github.com/en/actions)
+- [Claude vision](https://docs.claude.com/en/docs/build-with-claude/vision)
+- [OpenAI vision](https://platform.openai.com/docs/guides/images-vision)
+- Open [day 53 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-53) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-53
 git add day53
-git commit -m "Day 53: Multi-agent collaboration"
+git commit -m "Day 53: CI images & secrets · Document parsing"
 git push -u origin day-53
 ```
-Then press **Review my GitHub code** on day 53 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 53 in the tracker.

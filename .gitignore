@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+*.db
+chroma/
+data/
+*.csv
+!**/sample*.csv
+.DS_Store

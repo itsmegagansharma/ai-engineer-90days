@@ -1,31 +1,30 @@
-# Day 72: Deploy to cloud
+# Day 72: Build day: ticket-triage multi-agent system
 
-**Week 11 · Cloud, Kubernetes, hybrid & on-prem**
+**Week 12 · Agent tooling · Multi-agent & self-healing** · Build day
 
-Public cloud deployment is required.
+Classify → retrieve → draft → human approves → send, all audited.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Registry](task1_registry.md) | `md` |
-| 2 | [Deploy](task2_deploy.md) | `md` |
-| 3 | [Config](task3_config.md) | `md` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Build | [Build: ticket-triage system](task1_build_ticket_triage_system.py) |
+| 2 | Review | [Week 12 recap quiz](task2_review_week_12_recap_quiz.md) |
+| 3 | Review | [Week 12 reflection & plan](task3_review_week_12_reflection_plan.md) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-Your agent live at a public URL
+## Today's goal
+Ticket-triage system with HITL and audit log
 
 ## If you get stuck
-- [Azure Container Apps](https://learn.microsoft.com/en-us/azure/container-apps/)
-- [Google Cloud Run](https://cloud.google.com/run/docs)
-- Open [day 72 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-72) and ask Claude in the chat.
+- [LangChain Academy: Intro to LangGraph (free)](https://academy.langchain.com/courses/intro-to-langgraph)
+- Open [day 72 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-72) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-72
 git add day72
-git commit -m "Day 72: Deploy to cloud"
+git commit -m "Day 72: Build day: ticket-triage multi-agent system"
 git push -u origin day-72
 ```
-Then press **Review my GitHub code** on day 72 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 72 in the tracker.

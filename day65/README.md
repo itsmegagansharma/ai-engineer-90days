@@ -1,31 +1,32 @@
-# Day 65: Docker
+# Day 65: Validation loops · Time travel
 
-**Week 10 · Production: Docker, tests, CI/CD, observability**
+**Week 11 · LangGraph · Memory & human-in-the-loop**
 
-Docker is required in the job. Every deployment uses containers.
+Self-correct bad outputs; replay from checkpoints.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Dockerfile](task1_dockerfile.md) | `md` |
-| 2 | [Layers and size](task2_layers_and_size.md) | `md` |
-| 3 | [docker compose](task3_docker_compose.md) | `md` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [Validation loops](task1_eng_validation_loops.py) |
+| 2 | AI & ML | [Time travel with checkpoints](task2_ai_time_travel_with_checkpoints.py) |
+| 3 | Practice | [Mock interview 1](task3_prac_mock_interview_1.md) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-Week 9 project running with docker compose up
+## Today's goal
+A self-correcting graph, checkpoint replay and mock interview notes
 
 ## If you get stuck
-- [Docker get started](https://docs.docker.com/get-started/)
-- [Docker Compose docs](https://docs.docker.com/compose/)
-- Open [day 65 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-65) and ask Claude in the chat.
+- [LangGraph docs](https://langchain-ai.github.io/langgraph/)
+- [Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)
+- [LangChain Academy: Intro to LangGraph (free)](https://academy.langchain.com/courses/intro-to-langgraph)
+- Open [day 65 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-65) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-65
 git add day65
-git commit -m "Day 65: Docker"
+git commit -m "Day 65: Validation loops · Time travel"
 git push -u origin day-65
 ```
-Then press **Review my GitHub code** on day 65 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 65 in the tracker.

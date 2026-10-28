@@ -1,31 +1,33 @@
-# Day 40: RAG with frameworks
+# Day 40: Ingestion · Vector databases
 
-**Week 6 · Embeddings, vector DBs & basic RAG**
+**Week 7 · Text processing · Embeddings & basic RAG**
 
-Teams use LangChain or LlamaIndex. Know both the manual and framework way.
+Load a folder into a vector DB; store and filter at scale.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [LangChain RAG](task1_langchain_rag.py) | `py` |
-| 2 | [LlamaIndex](task2_llamaindex.py) | `py` |
-| 3 | [Compare](task3_compare.md) | `md` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [Ingestion pipeline](task1_eng_ingestion_pipeline.py) |
+| 2 | AI & ML | [Chroma & FAISS](task2_ai_chroma_faiss.py) |
+| 3 | Practice | [Problems: Min Stack & Subsets](task3_prac_problems_min_stack_subsets.py) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-Same app in a framework + comparison notes
+## Today's goal
+Folder ingestion into Chroma, FAISS comparison and two problems
 
 ## If you get stuck
+- [pypdf docs](https://pypdf.readthedocs.io/)
 - [LangChain RAG tutorial](https://python.langchain.com/docs/tutorials/rag/)
-- [LlamaIndex docs](https://docs.llamaindex.ai/)
-- Open [day 40 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-40) and ask Claude in the chat.
+- [Chroma docs](https://docs.trychroma.com/)
+- [FAISS wiki](https://github.com/facebookresearch/faiss/wiki)
+- Open [day 40 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-40) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-40
 git add day40
-git commit -m "Day 40: RAG with frameworks"
+git commit -m "Day 40: Ingestion · Vector databases"
 git push -u origin day-40
 ```
-Then press **Review my GitHub code** on day 40 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 40 in the tracker.

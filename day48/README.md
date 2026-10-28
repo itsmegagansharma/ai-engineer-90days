@@ -1,30 +1,34 @@
-# Day 48: Enterprise retrieval
+# Day 48: Build day: chat-with-docs v2
 
-**Week 7 · Advanced RAG & vision models**
+**Week 8 · UIs & vector stores · Advanced RAG** · Build day
 
-Real enterprise systems mix documents, databases and permissions.
+Hybrid search + reranking + UI + an eval report.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Text-to-SQL](task1_text_to_sql.py) | `py` |
-| 2 | [Route questions](task2_route_questions.py) | `py` |
-| 3 | [Permissions](task3_permissions.py) | `py` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Build | [Build: chat-with-docs v2](task1_build_chat_with_docs_v2.md) |
+| 2 | Review | [Week 8 recap quiz](task2_review_week_8_recap_quiz.md) |
+| 3 | Review | [Agentic RAG & GraphRAG notes](task3_review_agentic_rag_graphrag_notes.md) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-Assistant answering from docs + SQL with role filtering
+## Today's goal
+chat-with-docs v2 with eval scores in the README
 
 ## If you get stuck
-- [LangChain SQL Q&A](https://python.langchain.com/docs/tutorials/sql_qa/)
-- Open [day 48 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-48) and ask Claude in the chat.
+- [Streamlit get started](https://docs.streamlit.io/get-started)
+- [FastAPI tutorial](https://fastapi.tiangolo.com/tutorial/)
+- [RAGAS docs](https://docs.ragas.io/)
+- [Anthropic: Contextual Retrieval](https://www.anthropic.com/news/contextual-retrieval)
+- [LlamaIndex docs](https://docs.llamaindex.ai/)
+- Open [day 48 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-48) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-48
 git add day48
-git commit -m "Day 48: Enterprise retrieval"
+git commit -m "Day 48: Build day: chat-with-docs v2"
 git push -u origin day-48
 ```
-Then press **Review my GitHub code** on day 48 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 48 in the tracker.

@@ -1,31 +1,34 @@
-# Day 75: On-prem & hybrid
+# Day 75: MLflow · Kubernetes basics
 
-**Week 11 · Cloud, Kubernetes, hybrid & on-prem**
+**Week 13 · Production & security · Cloud & Kubernetes**
 
-On-prem and hybrid deployment are named in the job.
+Track experiments; learn the platform most companies run on.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Local models](task1_local_models.md) | `md` |
-| 2 | [Config switch](task2_config_switch.py) | `py` |
-| 3 | [Hybrid design](task3_hybrid_design.md) | `md` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [Track experiments with MLflow](task1_eng_track_experiments_with_mlflow.py) |
+| 2 | AI & ML | [Kubernetes basics](task2_ai_kubernetes_basics.md) |
+| 3 | Practice | [Hybrid architecture](task3_prac_hybrid_architecture.md) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-App working with a local model
+## Today's goal
+MLflow runs, a local cluster and a hybrid diagram
 
 ## If you get stuck
+- [MLflow docs](https://mlflow.org/docs/latest/)
+- [Prompt caching](https://docs.claude.com/en/docs/build-with-claude/prompt-caching)
+- [Kubernetes basics tutorial](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+- [kind (local Kubernetes)](https://kind.sigs.k8s.io/)
 - [Ollama (run models locally)](https://ollama.com/)
-- [vLLM docs](https://docs.vllm.ai/)
-- Open [day 75 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-75) and ask Claude in the chat.
+- Open [day 75 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-75) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-75
 git add day75
-git commit -m "Day 75: On-prem & hybrid"
+git commit -m "Day 75: MLflow · Kubernetes basics"
 git push -u origin day-75
 ```
-Then press **Review my GitHub code** on day 75 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 75 in the tracker.

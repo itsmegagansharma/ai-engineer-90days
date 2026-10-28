@@ -1,31 +1,32 @@
-# Day 86: Python & coding interviews
+# Day 86: GitHub profile · Trade-offs
 
-**Week 13 · Interview prep & applications**
+**Week 15 · Interview prep & applications**
 
-Most interviews still include a coding round.
+Recruiters look at GitHub; interviewers probe trade-offs.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Patterns](task1_patterns.py) | `py` |
-| 2 | [Practice](task2_practice.md) | `md` |
-| 3 | [Python questions](task3_python_questions.py) | `py` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [GitHub profile](task1_eng_github_profile.md) |
+| 2 | AI & ML | [System design trade-offs](task2_ai_system_design_trade_offs.md) |
+| 3 | Practice | [15-problem log](task3_prac_15_problem_log.md) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-15 problems solved
+## Today's goal
+Pinned repos, a trade-offs table and problem practice
 
 ## If you get stuck
+- [Chip Huyen's blog (ML systems)](https://huyenchip.com/blog/)
 - [NeetCode practice](https://neetcode.io/practice)
 - [LeetCode](https://leetcode.com/problemset/)
-- Open [day 86 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-86) and ask Claude in the chat.
+- Open [day 86 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-86) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-86
 git add day86
-git commit -m "Day 86: Python & coding interviews"
+git commit -m "Day 86: GitHub profile · Trade-offs"
 git push -u origin day-86
 ```
-Then press **Review my GitHub code** on day 86 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 86 in the tracker.

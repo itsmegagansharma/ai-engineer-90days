@@ -1,33 +1,34 @@
-# Day 03: Control flow & comprehensions
+# Day 03: Data structures · Context windows
 
-**Week 1 · Python core + Git**
+**Week 1 · Python basics · How AI & LLMs work**
 
-Agents are loops with decisions. This is the same logic at small scale.
+Lists and dicts carry all LLM data; context windows limit how much an LLM sees.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [if / elif / else](task1_if_elif_else.py) | `py` |
-| 2 | [for and while loops](task2_for_and_while_loops.py) | `py` |
-| 3 | [Comprehensions](task3_comprehensions.py) | `py` |
-| 4 | [Practice problems](task4_practice_problems.md) | `md` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [Lists, tuples, dicts & sets](task1_eng_lists_tuples_dicts_sets.py) |
+| 2 | AI & ML | [Tokens & context windows](task2_ai_tokens_context_windows.py) |
+| 3 | Practice | [Terminal basics](task3_prac_terminal_basics.md) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-10 solved problems in a /day03 folder
+## Today's goal
+Data-structure exercises, token experiments and terminal notes
 
 ## If you get stuck
-- [Python tutorial: control flow](https://docs.python.org/3/tutorial/controlflow.html)
-- [Exercism Python track](https://exercism.org/tracks/python)
+- [Python tutorial: data structures](https://docs.python.org/3/tutorial/datastructures.html)
 - [W3Schools Python (simple examples)](https://www.w3schools.com/python/)
-- Open [day 3 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-3) and ask Claude in the chat.
+- [Exercism Python track](https://exercism.org/tracks/python)
+- [Karpathy: Intro to LLMs (video)](https://www.youtube.com/watch?v=zjkBMFhNj_g)
+- [tiktoken (token counting)](https://github.com/openai/tiktoken)
+- Open [day 3 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-3) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-03
 git add day03
-git commit -m "Day 3: Control flow & comprehensions"
+git commit -m "Day 3: Data structures · Context windows"
 git push -u origin day-03
 ```
-Then press **Review my GitHub code** on day 3 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 3 in the tracker.

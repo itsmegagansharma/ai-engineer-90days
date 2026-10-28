@@ -1,30 +1,31 @@
-# Day 28: Month 1 checkpoint
+# Day 28: API tests · Tool-calling loop
 
-**Week 4 · ML algorithms from the job description**
+**Week 5 · APIs with FastAPI · Structured outputs & tools**
 
-A tidy portfolio now pays off in interviews later.
+Test your API; run the model → tool → model loop.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Self-assessment](task1_self_assessment.md) | `md` |
-| 2 | [Clean the repo](task2_clean_the_repo.md) | `md` |
-| 3 | [Quiz](task3_quiz.md) | `md` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [Test FastAPI with TestClient](task1_eng_test_fastapi_with_testclient.py) |
+| 2 | AI & ML | [Tool-calling loop](task2_ai_tool_calling_loop.py) |
+| 3 | Practice | [Debug HTTP with curl](task3_prac_debug_http_with_curl.md) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-Portfolio repo with 4 clean ML projects
+## Today's goal
+API tests passing, a working tool loop and curl notes
 
 ## If you get stuck
-- [Kaggle Learn: Intermediate ML](https://www.kaggle.com/learn/intermediate-machine-learning)
-- Open [day 28 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-28) and ask Claude in the chat.
+- [Claude tool use](https://docs.claude.com/en/docs/agents-and-tools/tool-use/overview)
+- [OpenAI function calling](https://platform.openai.com/docs/guides/function-calling)
+- Open [day 28 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-28) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-28
 git add day28
-git commit -m "Day 28: Month 1 checkpoint"
+git commit -m "Day 28: API tests · Tool-calling loop"
 git push -u origin day-28
 ```
-Then press **Review my GitHub code** on day 28 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 28 in the tracker.

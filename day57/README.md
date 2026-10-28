@@ -1,31 +1,32 @@
-# Day 57: Memory architectures
+# Day 57: Routing · Reflection
 
-**Week 9 · Memory, HITL, self-healing & multi-agent**
+**Week 10 · Reliable Python · Agent design patterns**
 
-Short- and long-term memory are explicitly in the job.
+Send questions to the right place; let models critique themselves.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Short-term memory](task1_short_term_memory.py) | `py` |
-| 2 | [Long-term memory](task2_long_term_memory.py) | `py` |
-| 3 | [Design](task3_design.md) | `md` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [Route questions: docs, SQL or both](task1_eng_route_questions_docs_sql_or_both.py) |
+| 2 | AI & ML | [Reflection: generate, critique, revise](task2_ai_reflection_generate_critique_revise.py) |
+| 3 | Practice | [Problems: Log File Stats & Deduplicate Records](task3_prac_problems_log_file_stats_deduplicate.py) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-Agent that remembers user facts across sessions
+## Today's goal
+A router, a writer–critic loop and two problems
 
 ## If you get stuck
-- [LangChain Academy: Intro to LangGraph (free)](https://academy.langchain.com/courses/intro-to-langgraph)
-- [LangGraph docs](https://langchain-ai.github.io/langgraph/)
-- Open [day 57 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-57) and ask Claude in the chat.
+- [LangChain SQL Q&A](https://python.langchain.com/docs/tutorials/sql_qa/)
+- [DeepLearning.AI short courses](https://www.deeplearning.ai/short-courses/)
+- [Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)
+- Open [day 57 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-57) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-57
 git add day57
-git commit -m "Day 57: Memory architectures"
+git commit -m "Day 57: Routing · Reflection"
 git push -u origin day-57
 ```
-Then press **Review my GitHub code** on day 57 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 57 in the tracker.

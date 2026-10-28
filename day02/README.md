@@ -1,33 +1,34 @@
-# Day 02: Core data structures
+# Day 02: Variables · Tokens & next-word prediction
 
-**Week 1 · Python core + Git**
+**Week 1 · Python basics · How AI & LLMs work**
 
-Lists and dicts carry all the data in LLM apps: messages, JSON, tool results.
+Python syntax and the core idea behind LLMs, side by side.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Lists and tuples](task1_lists_and_tuples.py) | `py` |
-| 2 | [Dictionaries](task2_dictionaries.py) | `py` |
-| 3 | [Sets](task3_sets.py) | `py` |
-| 4 | [Choose the right structure](task4_choose_the_right_structure.md) | `md` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [Variables, numbers, strings, input/print](task1_eng_variables_numbers_strings_input_print.py) |
+| 2 | AI & ML | [How LLMs work](task2_ai_how_llms_work.md) |
+| 3 | Practice | [Problems: FizzBuzz & Reverse String](task3_prac_problems_fizzbuzz_reverse_string.py) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-word_count.py: reads a .txt file and prints the 10 most common words (dict + sorted)
+## Today's goal
+Age script, LLM notes and two solved problems
 
 ## If you get stuck
-- [Python tutorial: data structures](https://docs.python.org/3/tutorial/datastructures.html)
-- [W3Schools Python (simple examples)](https://www.w3schools.com/python/)
-- [Exercism Python track](https://exercism.org/tracks/python)
-- Open [day 2 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-2) and ask Claude in the chat.
+- [VS Code Python tutorial](https://code.visualstudio.com/docs/python/python-tutorial)
+- [Python tutorial: informal intro](https://docs.python.org/3/tutorial/introduction.html)
+- [GitHub Hello World guide](https://docs.github.com/en/get-started/start-your-journey/hello-world)
+- [Pro Git book (free)](https://git-scm.com/book/en/v2)
+- [Karpathy: Intro to LLMs (video)](https://www.youtube.com/watch?v=zjkBMFhNj_g)
+- Open [day 2 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-2) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-02
 git add day02
-git commit -m "Day 2: Core data structures"
+git commit -m "Day 2: Variables · Tokens & next-word prediction"
 git push -u origin day-02
 ```
-Then press **Review my GitHub code** on day 2 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 2 in the tracker.

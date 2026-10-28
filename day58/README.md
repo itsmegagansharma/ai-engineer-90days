@@ -1,31 +1,32 @@
-# Day 58: Human-in-the-loop
+# Day 58: Permissions · Planning
 
-**Week 9 · Memory, HITL, self-healing & multi-agent**
+**Week 10 · Reliable Python · Agent design patterns**
 
-HITL approval processes are named twice in the job.
+Enterprise answers respect access; planners break goals into steps.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [interrupt()](task1_interrupt.py) | `py` |
-| 2 | [Approve / edit / reject](task2_approve_edit_reject.py) | `py` |
-| 3 | [Time travel](task3_time_travel.py) | `py` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [Permissions & audit logging](task1_eng_permissions_audit_logging.py) |
+| 2 | AI & ML | [Planning: plan, execute, replan](task2_ai_planning_plan_execute_replan.py) |
+| 3 | Practice | [Multi-agent patterns](task3_prac_multi_agent_patterns.md) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-Agent that waits for approval before sending an email
+## Today's goal
+Role-filtered retrieval, a planner agent and a patterns table
 
 ## If you get stuck
-- [LangChain Academy: Intro to LangGraph (free)](https://academy.langchain.com/courses/intro-to-langgraph)
+- [LangChain SQL Q&A](https://python.langchain.com/docs/tutorials/sql_qa/)
 - [LangGraph docs](https://langchain-ai.github.io/langgraph/)
-- Open [day 58 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-58) and ask Claude in the chat.
+- [Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)
+- Open [day 58 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-58) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-58
 git add day58
-git commit -m "Day 58: Human-in-the-loop"
+git commit -m "Day 58: Permissions · Planning"
 git push -u origin day-58
 ```
-Then press **Review my GitHub code** on day 58 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 58 in the tracker.

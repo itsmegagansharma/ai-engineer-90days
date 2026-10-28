@@ -1,31 +1,32 @@
-# Day 45: Advanced retrieval patterns
+# Day 45: pgvector · Query rewriting
 
-**Week 7 · Advanced RAG & vision models**
+**Week 8 · UIs & vector stores · Advanced RAG**
 
-These patterns show up in interviews about advanced RAG.
+Production vector storage in Postgres; better queries find better chunks.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Contextual retrieval](task1_contextual_retrieval.py) | `py` |
-| 2 | [Parent-document retrieval](task2_parent_document_retrieval.py) | `py` |
-| 3 | [Agentic RAG & GraphRAG](task3_agentic_rag_graphrag.md) | `md` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [Postgres + pgvector in Docker](task1_eng_postgres_pgvector_in_docker.py) |
+| 2 | AI & ML | [Multi-query & HyDE](task2_ai_multi_query_hyde.py) |
+| 3 | Practice | [Problems: LRU Cache & Top Words in Text](task3_prac_problems_lru_cache_top_words_in_text.py) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-Contextual chunk headers in your app
+## Today's goal
+RAG on pgvector, query rewriting and two problems
 
 ## If you get stuck
-- [Anthropic: Contextual Retrieval](https://www.anthropic.com/news/contextual-retrieval)
-- [LlamaIndex docs](https://docs.llamaindex.ai/)
-- Open [day 45 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-45) and ask Claude in the chat.
+- [pgvector](https://github.com/pgvector/pgvector)
+- [Qdrant quickstart](https://qdrant.tech/documentation/quickstart/)
+- [sentence-transformers](https://sbert.net/)
+- Open [day 45 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-45) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-45
 git add day45
-git commit -m "Day 45: Advanced retrieval patterns"
+git commit -m "Day 45: pgvector · Query rewriting"
 git push -u origin day-45
 ```
-Then press **Review my GitHub code** on day 45 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 45 in the tracker.

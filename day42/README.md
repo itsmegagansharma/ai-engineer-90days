@@ -1,31 +1,32 @@
-# Day 42: Week 6 review + project
+# Day 42: Build day: RAG from scratch
 
-**Week 6 · Embeddings, vector DBs & basic RAG**
+**Week 7 · Text processing · Embeddings & basic RAG** · Build day
 
-This is your first portfolio GenAI app.
+Docs Q&A with citations, built with no framework.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Streamlit UI](task1_ui.py) | `py` |
-| 2 | [Connect to API](task2_connect_to_api.py) | `py` |
-| 3 | [README](task3_readme.md) | `md` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Build | [Build: RAG from scratch with citations](task1_build_rag_from_scratch_with_citations.py) |
+| 2 | Review | [Week 7 recap quiz](task2_review_week_7_recap_quiz.md) |
+| 3 | Review | [Compare: from scratch vs frameworks](task3_review_compare_from_scratch_vs_frameworks.py) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-'Chat with your docs' app: FastAPI + vector DB + Streamlit
+## Today's goal
+rag.py answering questions with sources, plus a framework comparison
 
 ## If you get stuck
-- [Streamlit get started](https://docs.streamlit.io/get-started)
-- [FastAPI tutorial](https://fastapi.tiangolo.com/tutorial/)
-- Open [day 42 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-42) and ask Claude in the chat.
+- [DeepLearning.AI short courses](https://www.deeplearning.ai/short-courses/)
+- [LangChain RAG tutorial](https://python.langchain.com/docs/tutorials/rag/)
+- [LlamaIndex docs](https://docs.llamaindex.ai/)
+- Open [day 42 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-42) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-42
 git add day42
-git commit -m "Day 42: Week 6 review + project"
+git commit -m "Day 42: Build day: RAG from scratch"
 git push -u origin day-42
 ```
-Then press **Review my GitHub code** on day 42 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 42 in the tracker.

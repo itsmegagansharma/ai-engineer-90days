@@ -1,31 +1,30 @@
-# Day 39: RAG from scratch
+# Day 39: Clean text · Semantic search
 
-**Week 6 · Embeddings, vector DBs & basic RAG**
+**Week 7 · Text processing · Embeddings & basic RAG**
 
-Building it by hand means you can debug any framework later.
+Clean text before indexing; search by meaning, not keywords.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Retrieve](task1_retrieve.py) | `py` |
-| 2 | [Augment](task2_augment.py) | `py` |
-| 3 | [Generate and cite](task3_answer.py) | `py` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [Clean text with regex](task1_eng_clean_text_with_regex.py) |
+| 2 | AI & ML | [Semantic search](task2_ai_semantic_search.py) |
+| 3 | Practice | [Interview: ML basics](task3_prac_interview_ml_basics.md) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-rag.py: Q&A over your PDFs with citations
+## Today's goal
+A text cleaner, semantic search and ML interview answers
 
 ## If you get stuck
-- [DeepLearning.AI short courses](https://www.deeplearning.ai/short-courses/)
-- [LangChain RAG tutorial](https://python.langchain.com/docs/tutorials/rag/)
-- Open [day 39 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-39) and ask Claude in the chat.
+- [sentence-transformers](https://sbert.net/)
+- Open [day 39 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-39) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-39
 git add day39
-git commit -m "Day 39: RAG from scratch"
+git commit -m "Day 39: Clean text · Semantic search"
 git push -u origin day-39
 ```
-Then press **Review my GitHub code** on day 39 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 39 in the tracker.

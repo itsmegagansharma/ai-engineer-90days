@@ -1,31 +1,34 @@
-# Day 74: Deploy on Kubernetes
+# Day 74: Caching & routing · Deploy to Azure
 
-**Week 11 · Cloud, Kubernetes, hybrid & on-prem**
+**Week 13 · Production & security · Cloud & Kubernetes**
 
-Scalable AI infrastructure means running on K8s.
+Cut cost and latency; put your app online.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Manifests](task1_manifests.md) | `md` |
-| 2 | [Config](task2_config.md) | `md` |
-| 3 | [Scale and health](task3_scale_and_health.md) | `md` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [Semantic cache & model routing](task1_eng_semantic_cache_model_routing.py) |
+| 2 | AI & ML | [Deploy to Azure Container Apps](task2_ai_deploy_to_azure_container_apps.md) |
+| 3 | Practice | [Audit trail fields](task3_prac_audit_trail_fields.md) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-Your agent running on local Kubernetes
+## Today's goal
+Cache + routing, a live URL and an audit design
 
 ## If you get stuck
-- [Kubernetes basics tutorial](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
-- [Helm docs](https://helm.sh/docs/)
-- Open [day 74 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-74) and ask Claude in the chat.
+- [MLflow docs](https://mlflow.org/docs/latest/)
+- [Prompt caching](https://docs.claude.com/en/docs/build-with-claude/prompt-caching)
+- [Azure Container Apps](https://learn.microsoft.com/en-us/azure/container-apps/)
+- [Google Cloud Run](https://cloud.google.com/run/docs)
+- [OWASP Top 10 for LLM apps](https://genai.owasp.org/llm-top-10/)
+- Open [day 74 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-74) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-74
 git add day74
-git commit -m "Day 74: Deploy on Kubernetes"
+git commit -m "Day 74: Caching & routing · Deploy to Azure"
 git push -u origin day-74
 ```
-Then press **Review my GitHub code** on day 74 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 74 in the tracker.

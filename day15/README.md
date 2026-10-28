@@ -1,30 +1,34 @@
-# Day 15: NumPy
+# Day 15: Secrets · Sampling
 
-**Week 3 · Data, SQL & first ML models**
+**Week 3 · Testing & APIs · Your first LLM apps**
 
-Embeddings are NumPy arrays. Similarity search is vector math.
+API keys never go in code; temperature changes what models say.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Arrays and shapes](task1_arrays_and_shapes.py) | `py` |
-| 2 | [Broadcasting and vector math](task2_broadcasting_and_vector_math.py) | `py` |
-| 3 | [Vectorize a loop](task3_vectorize_a_loop.py) | `py` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [Secrets in .env](task1_eng_secrets_in_env.py) |
+| 2 | AI & ML | [Temperature & sampling](task2_ai_temperature_sampling.py) |
+| 3 | Practice | [Problems: Longest Common Prefix & Merge Sorted Lists](task3_prac_problems_longest_common_prefix_merge.py) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-numpy_practice.ipynb (install Jupyter: pip install notebook)
+## Today's goal
+.env setup, temperature experiment and two problems
 
 ## If you get stuck
-- [NumPy for absolute beginners](https://numpy.org/doc/stable/user/absolute_beginners.html)
-- Open [day 15 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-15) and ask Claude in the chat.
+- [Real Python: requests library](https://realpython.com/python-requests/)
+- [Karpathy: Intro to LLMs (video)](https://www.youtube.com/watch?v=zjkBMFhNj_g)
+- [tiktoken (token counting)](https://github.com/openai/tiktoken)
+- [Gemini API quickstart (free tier)](https://ai.google.dev/gemini-api/docs/quickstart)
+- [Ollama (run models locally)](https://ollama.com/)
+- Open [day 15 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-15) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-15
 git add day15
-git commit -m "Day 15: NumPy"
+git commit -m "Day 15: Secrets · Sampling"
 git push -u origin day-15
 ```
-Then press **Review my GitHub code** on day 15 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 15 in the tracker.

@@ -1,31 +1,33 @@
-# Day 32: Structured outputs
+# Day 32: Smaller images · Clustering & PCA
 
-**Week 5 · LLM fundamentals & API skills**
+**Week 6 · Docker · Classic ML algorithms**
 
-Agents need machine-readable outputs, not prose. Required in the job.
+Lean images deploy faster; clustering groups customers and documents.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [JSON mode / schemas](task1_json_mode_schemas.py) | `py` |
-| 2 | [Parse to Pydantic](task2_parse_to_pydantic.py) | `py` |
-| 3 | [Retry on failure](task3_retry_on_failure.py) | `py` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [Image size & .dockerignore](task1_eng_image_size_dockerignore.md) |
+| 2 | AI & ML | [k-means & PCA](task2_ai_k_means_pca.py) |
+| 3 | Practice | [ML systems reading](task3_prac_ml_systems_reading.md) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-invoice_extractor.py: text → validated Invoice model
+## Today's goal
+A slimmer image, clustering notebook and reading notes
 
 ## If you get stuck
-- [OpenAI structured outputs](https://platform.openai.com/docs/guides/structured-outputs)
-- [Pydantic: models](https://docs.pydantic.dev/latest/concepts/models/)
-- Open [day 32 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-32) and ask Claude in the chat.
+- [Docker get started](https://docs.docker.com/get-started/)
+- [Docker Compose docs](https://docs.docker.com/compose/)
+- [scikit-learn: clustering](https://scikit-learn.org/stable/modules/clustering.html)
+- [scikit-learn: PCA](https://scikit-learn.org/stable/modules/decomposition.html)
+- Open [day 32 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-32) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-32
 git add day32
-git commit -m "Day 32: Structured outputs"
+git commit -m "Day 32: Smaller images · Clustering & PCA"
 git push -u origin day-32
 ```
-Then press **Review my GitHub code** on day 32 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 32 in the tracker.

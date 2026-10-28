@@ -1,30 +1,33 @@
-# Day 77: Week 11 review
+# Day 77: Production checklist · Architecture
 
-**Week 11 · Cloud, Kubernetes, hybrid & on-prem**
+**Week 13 · Production & security · Cloud & Kubernetes**
 
-Writing about your work proves you understand it.
+Prove it's production-ready; explain it in one picture.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Architecture diagram](task1_architecture_diagram.md) | `md` |
-| 2 | [Blog post](task2_blog_post.md) | `md` |
-| 3 | [Plan capstone](task3_plan_capstone.md) | `md` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [Production checklist](task1_eng_production_checklist.md) |
+| 2 | AI & ML | [Architecture diagram](task2_ai_architecture_diagram.md) |
+| 3 | Practice | [Write a LinkedIn post](task3_prac_write_a_linkedin_post.md) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-Diagram + published post
+## Today's goal
+Checklist complete, a diagram and a published post
 
 ## If you get stuck
+- [Docker get started](https://docs.docker.com/get-started/)
 - [Chip Huyen's blog (ML systems)](https://huyenchip.com/blog/)
-- Open [day 77 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-77) and ask Claude in the chat.
+- [Microsoft Learn training](https://learn.microsoft.com/en-us/training/)
+- [Kubernetes basics tutorial](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+- Open [day 77 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-77) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-77
 git add day77
-git commit -m "Day 77: Week 11 review"
+git commit -m "Day 77: Production checklist · Architecture"
 git push -u origin day-77
 ```
-Then press **Review my GitHub code** on day 77 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 77 in the tracker.

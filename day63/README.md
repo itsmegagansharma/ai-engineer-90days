@@ -1,30 +1,32 @@
-# Day 63: Week 9 review + project
+# Day 63: Tools in graphs · Memory design
 
-**Week 9 · Memory, HITL, self-healing & multi-agent**
+**Week 11 · LangGraph · Memory & human-in-the-loop**
 
-This project shows nearly every responsibility in the job description.
+Tool nodes and prebuilt agents; decide what to remember.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Build](task1_build.py) | `py` |
-| 2 | [Audit log](task2_audit_log.py) | `py` |
-| 3 | [Memory](task3_memory.md) | `md` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [ToolNode & prebuilt ReAct agent](task1_eng_toolnode_prebuilt_react_agent.py) |
+| 2 | AI & ML | [Memory design](task2_ai_memory_design.md) |
+| 3 | Practice | [Interview: human-in-the-loop & reliability](task3_prac_interview_human_in_the_loop_reliability.md) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-Multi-agent triage workflow with HITL, memory, audit log
+## Today's goal
+A tool-using graph, a memory design table and interview answers
 
 ## If you get stuck
 - [LangChain Academy: Intro to LangGraph (free)](https://academy.langchain.com/courses/intro-to-langgraph)
-- Open [day 63 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-63) and ask Claude in the chat.
+- [LangGraph on GitHub (examples)](https://github.com/langchain-ai/langgraph)
+- [LangGraph docs](https://langchain-ai.github.io/langgraph/)
+- Open [day 63 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-63) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-63
 git add day63
-git commit -m "Day 63: Week 9 review + project"
+git commit -m "Day 63: Tools in graphs · Memory design"
 git push -u origin day-63
 ```
-Then press **Review my GitHub code** on day 63 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 63 in the tracker.

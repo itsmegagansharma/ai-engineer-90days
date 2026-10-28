@@ -1,30 +1,32 @@
-# Day 70: Week 10 review
+# Day 70: Auth & jobs · Rules + LLM
 
-**Week 10 · Production: Docker, tests, CI/CD, observability**
+**Week 12 · Agent tooling · Multi-agent & self-healing**
 
-Production polish is what separates you from tutorial-only candidates.
+Secure your API; keep business rules deterministic.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Fix and finish](task1_fix_and_finish.md) | `md` |
-| 2 | [Checklist](task2_checklist.md) | `md` |
-| 3 | [Notes](task3_notes.md) | `md` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [API keys & background jobs](task1_eng_api_keys_background_jobs.py) |
+| 2 | AI & ML | [Deterministic rules + LLM judgment](task2_ai_deterministic_rules_llm_judgment.py) |
+| 3 | Practice | [PII redaction](task3_prac_pii_redaction.py) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-Containerized, tested, traced, CI-checked agent
+## Today's goal
+Protected endpoints, a refund decider and a redaction function
 
 ## If you get stuck
-- [Docker get started](https://docs.docker.com/get-started/)
-- Open [day 70 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-70) and ask Claude in the chat.
+- [FastAPI advanced guide](https://fastapi.tiangolo.com/advanced/)
+- [Model Context Protocol docs](https://modelcontextprotocol.io/)
+- [OWASP Top 10 for LLM apps](https://genai.owasp.org/llm-top-10/)
+- Open [day 70 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-70) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-70
 git add day70
-git commit -m "Day 70: Week 10 review"
+git commit -m "Day 70: Auth & jobs · Rules + LLM"
 git push -u origin day-70
 ```
-Then press **Review my GitHub code** on day 70 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 70 in the tracker.

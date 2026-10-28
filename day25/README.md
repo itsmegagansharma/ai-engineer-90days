@@ -1,30 +1,32 @@
-# Day 25: Recommender systems
+# Day 25: FastAPI · JSON outputs
 
-**Week 4 · ML algorithms from the job description**
+**Week 5 · APIs with FastAPI · Structured outputs & tools**
 
-Recommenders are listed in the job and teach similarity, the core of RAG.
+Every AI service is an API; agents need machine-readable outputs.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Content-based](task1_content_based.py) | `py` |
-| 2 | [Collaborative filtering](task2_collaborative_filtering.py) | `py` |
-| 3 | [Evaluate](task3_evaluate.py) | `py` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [FastAPI basics](task1_eng_fastapi_basics.py) |
+| 2 | AI & ML | [Structured outputs: JSON mode](task2_ai_structured_outputs_json_mode.py) |
+| 3 | Practice | [Problems: Longest Substring Without Repeating & Container With Most Water](task3_prac_problems_longest_substring_without.py) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-Movie recommender notebook
+## Today's goal
+A FastAPI app with /docs, a JSON extractor and two problems
 
 ## If you get stuck
-- [MovieLens datasets](https://grouplens.org/datasets/movielens/)
-- Open [day 25 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-25) and ask Claude in the chat.
+- [FastAPI tutorial](https://fastapi.tiangolo.com/tutorial/)
+- [OpenAI structured outputs](https://platform.openai.com/docs/guides/structured-outputs)
+- [Pydantic: models](https://docs.pydantic.dev/latest/concepts/models/)
+- Open [day 25 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-25) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-25
 git add day25
-git commit -m "Day 25: Recommender systems"
+git commit -m "Day 25: FastAPI · JSON outputs"
 git push -u origin day-25
 ```
-Then press **Review my GitHub code** on day 25 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 25 in the tracker.

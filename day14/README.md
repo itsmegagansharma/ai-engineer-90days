@@ -1,31 +1,34 @@
-# Day 14: Week 2 review + project
+# Day 14: HTTP · Streaming
 
-**Week 2 · Intermediate Python, testing & APIs**
+**Week 3 · Testing & APIs · Your first LLM apps**
 
-Team workflows (branches, PRs, linting) are expected in any enterprise job.
+Every LLM is reached over HTTP; streaming makes apps feel fast.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [Branches and PRs](task1_branches_and_prs.md) | `md` |
-| 2 | [Ruff](task2_ruff.md) | `md` |
-| 3 | [Build the CLI](weather_cli.py) | `py` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [HTTP & REST with requests](task1_eng_http_rest_with_requests.py) |
+| 2 | AI & ML | [Stream responses token by token](task2_ai_stream_responses_token_by_token.py) |
+| 3 | Practice | [Linting & formatting with ruff](task3_prac_linting_formatting_with_ruff.md) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-Typed, tested CLI merged via a pull request
+## Today's goal
+Weather script, streaming script and a ruff-clean repo
 
 ## If you get stuck
-- [Ruff linter docs](https://docs.astral.sh/ruff/)
-- [GitHub Hello World guide](https://docs.github.com/en/get-started/start-your-journey/hello-world)
-- Open [day 14 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-14) and ask Claude in the chat.
+- [Real Python: requests library](https://realpython.com/python-requests/)
+- [Gemini API quickstart (free tier)](https://ai.google.dev/gemini-api/docs/quickstart)
+- [OpenAI API quickstart](https://platform.openai.com/docs/quickstart)
+- [Claude API get started](https://docs.claude.com/en/docs/get-started)
+- [Ollama (run models locally)](https://ollama.com/)
+- Open [day 14 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-14) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-14
 git add day14
-git commit -m "Day 14: Week 2 review + project"
+git commit -m "Day 14: HTTP · Streaming"
 git push -u origin day-14
 ```
-Then press **Review my GitHub code** on day 14 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 14 in the tracker.

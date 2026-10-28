@@ -1,31 +1,31 @@
-# Day 81: Capstone: reliability
+# Day 81: Capstone: agents
 
-**Week 12 · Capstone project**
+**Week 14 · Capstone project**
 
-HITL, self-correction and audit checkpoints are the job's key differentiators.
+The multi-agent core of the job.
 
-## Tasks
-| # | File | Type |
-|---|------|------|
-| 1 | [HITL](task1_hitl.md) | `md` |
-| 2 | [Self-correction](task2_self_correction.md) | `md` |
-| 3 | [Audit + guardrails](task3_audit_guardrails.md) | `md` |
+## Tasks (~2–3 hours)
+| # | Track | File |
+|---|-------|------|
+| 1 | Engineering | [Tools & integrations](task1_eng_tools_integrations.md) |
+| 2 | AI & ML | [Supervisor, specialists & memory](task2_ai_supervisor_specialists_memory.md) |
+| 3 | Practice | [Explain it out loud](task3_prac_explain_it_out_loud.md) |
 
-`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets: fill them in.
+`.py` files have partial code: complete the TODOs and run them. `.md` files are worksheets.
 
-## Build goal
-Failure cases handled and logged
+## Today's goal
+Agents completing the main flow
 
 ## If you get stuck
-- [OWASP Top 10 for LLM apps](https://genai.owasp.org/llm-top-10/)
-- [LangGraph docs](https://langchain-ai.github.io/langgraph/)
-- Open [day 81 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-81) and ask Claude in the chat.
+- [LangChain Academy: Intro to LangGraph (free)](https://academy.langchain.com/courses/intro-to-langgraph)
+- [Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)
+- Open [day 81 on the tracker](https://claude.ai/artifact/Q46bScTFaaMYYQyfNxW1JB#day-81) and ask Claude.
 
 ## Submit for review
 ```
 git checkout -b day-81
 git add day81
-git commit -m "Day 81: Capstone: reliability"
+git commit -m "Day 81: Capstone: agents"
 git push -u origin day-81
 ```
-Then press **Review my GitHub code** on day 81 in the tracker.
+Then tick your finished tasks and press **Review my GitHub code** on day 81 in the tracker.
